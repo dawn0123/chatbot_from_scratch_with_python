@@ -1,0 +1,201 @@
+{
+   "intents": [
+      {
+         "context": "",
+         "patterns": [
+            "Hello",
+            "Hi there",
+            "Good morning",
+            "What's up"
+         ],
+         "responses": [
+            "Hey!",
+            "Hello",
+            "Hi!",
+            "Good morning!"
+         ],
+         "tag": "hello"
+      },
+      {
+         "context": [
+            ""
+         ],
+         "patterns": [],
+         "responses": [
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "tag": "noanswer"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "What is your job",
+            "What is your work"
+         ],
+         "responses": [
+            "My job is to make you feel like everything is okay.",
+            "I work to serve you as well as possible"
+         ],
+         "tag": "job"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "What is your age",
+            "How old are you",
+            "When were you born"
+         ],
+         "responses": [
+            "I was born in 2021"
+         ],
+         "tag": "age"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "How are you today",
+            "How are you"
+         ],
+         "responses": [
+            "I am feeling good, you?",
+            "Very good and you?",
+            "Actually, I'm okay and you?"
+         ],
+         "tag": "feeling"
+      },
+      {
+         "context": "feeling",
+         "patterns": [
+            "I am good too",
+            "I feel fine",
+            "Good !",
+            "Fine",
+            "I am good",
+            "I am great",
+            "great"
+         ],
+         "responses": [
+            "That is perfect!",
+            "So, everything's okay!"
+         ],
+         "tag": "good"
+      },
+      {
+         "context": "feeling",
+         "patterns": [
+            "I am feeling bad",
+            "No I am sad",
+            "No"
+         ],
+         "responses": [
+            "I hope you will feel better !"
+         ],
+         "tag": "bad"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "What can you do",
+            "What can I ask you",
+            "Can you help me"
+         ],
+         "responses": [
+            "I can do a lot of things but here are some of my skills, you can ask me: the capital of a country, its currency and its area. A random number. To calculate a math operation."
+         ],
+         "tag": "actions"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Are you a girl",
+            "You are a women"
+         ],
+         "responses": [
+            "Sure, I am a women"
+         ],
+         "tag": "women"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Are you a men",
+            "Are you a boy"
+         ],
+         "responses": [
+            "No, I am a women"
+         ],
+         "tag": "men"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Thank you",
+            "Thank you very much",
+            "thanks"
+         ],
+         "responses": [
+            "I only do my job?",
+            "No problem!"
+         ],
+         "tag": "thanks"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Goodbye",
+            "Good afternoon",
+            "Bye"
+         ],
+         "responses": [
+            "Goodbye!",
+            "See you soon!"
+         ],
+         "tag": "goodbye"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Where do you live"
+         ],
+         "responses": [
+            "I live in a server located in the US!"
+         ],
+         "tag": "city"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "What are you doing"
+         ],
+         "responses": [
+            "Actually, I'm chatting with somebody"
+         ],
+         "tag": "action"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Can you wait 2 minutes",
+            "Please wait",
+            "Wait 2 secs please"
+         ],
+         "responses": [
+            "Sure! I wait."
+         ],
+         "tag": "wait"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Are you still there?",
+            "Are you here?"
+         ],
+         "responses": [
+            "Of course! Always at your service."
+         ],
+         "tag": "still there"
+      }
+   ]
+}
